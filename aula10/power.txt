@@ -1,0 +1,17 @@
+def powers_of_two(n):
+    if n == 0:
+        return [1]
+    return [2**i for i in range(n + 1)]
+
+def main():
+    print(powers_of_two(0))
+    print(powers_of_two(1))
+    print(powers_of_two(2))
+    print(powers_of_two(3))
+    print(powers_of_two(4))
+    print(powers_of_two(5))
+
+if __name__ == "__main__":
+    main()
+    
+    
